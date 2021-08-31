@@ -1,0 +1,27 @@
+users
+
+
+books
+
+    id
+    title
+    isbn
+    author
+    language
+    no_of_page
+    edition
+    rent_price (as per day)
+
+
+order
+    order_id
+    ordered
+    user_id (fk)
+
+orderItem
+    orderItem_id
+    order_id (fk)
+    ordered
+    user_id
+    book_id
+    qty( default = 1)
