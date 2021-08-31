@@ -21,7 +21,7 @@ class CreateBooksTable extends Migration
             $table->string('language')->default('english');
             $table->integer('no_of_page')->default(0);
             $table->string('edition')->nullable();
-            $table->string('rent_price');
+            $table->float('rent_price');
             $table->timestamps();
         });
     }
