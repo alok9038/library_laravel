@@ -1,10 +1,10 @@
 <div>
     <div class="card border-0 shadow-sm">
-        <div class="card-header">
+        <div class="card-header bg-transparent">
             <div class="d-flex">
                 <span class=""><h4>Manage Books</h4></span>
                 <div class="col-4 ms-auto btn-group">
-                    <input type="search" name="search" placeholder=" search here ..." wire:modal="search" class="form-control">
+                    <input type="search" name="search" placeholder=" search here ..." wire:model="search" class="form-control">
                     <button class="btn btn-white"><i class="fa fa-search"></i></button>
                 </div>
             </div>

@@ -7,7 +7,7 @@ use Livewire\Component;
 
 class ManageBook extends Component
 {
-    public $search = "";
+    public $search;
 
     // public function mount(){
     //     $this->books = Book::all();
