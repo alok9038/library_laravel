@@ -15,6 +15,7 @@
                         <th>Language</th>
                         <th>Action</th>
                     </tr>
+                    @livewire('manage-book')
                 </table>
             </div>
         </div>

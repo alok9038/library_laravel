@@ -37,7 +37,11 @@ Route::get('/orders-all', function () {
     return view('core.orders');
 })->name('orders.all');
 
-Route::get('/student', function () {
+Route::get('/add-student', function () {
+    return view('core.add_student');
+})->name('add.student');
+
+Route::get('/students', function () {
     return view('core.students');
 })->name('manage.students');
 

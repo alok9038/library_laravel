@@ -41,7 +41,8 @@
                         <a href="{{ route('add.entry') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Add entry</a>
                         <a href="{{ route('orders.active') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Active Orders</a>
                         <a href="{{ route('orders.all') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Manage Orders</a>
-                        <a href="{{ route('orders.all') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Manage Students</a>
+                        <a href="{{ route('add.student') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Add Student</a>
+                        <a href="{{ route('manage.students') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Manage Students</a>
                         <a href="{{ route('orders.all') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Settings</a>
                         <a href="{{ route('orders.all') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Logout</a>
                     </div>
