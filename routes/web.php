@@ -21,6 +21,14 @@ Route::get('/manage-books', function () {
     return view('core.manage_books');
 })->name('manage.books');
 
+Route::get('/add-book', function () {
+    return view('core.add_book');
+})->name('add.book');
+
+Route::get('/add-entry', function () {
+    return view('core.add_entry');
+})->name('add.entry');
+
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
 // })->middleware(['auth'])->name('dashboard');

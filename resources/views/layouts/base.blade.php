@@ -29,8 +29,8 @@
                     <div class="list-group p-0">
                         <a href="{{ route('dashboard') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white-50 bg-opacity-100">Dashboard</a>
                         <a href="{{ route('manage.books') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white-50 bg-opacity-100">Manage Books</a>
-                        <a href="" class="list-group-item rounded-0 list-group-item-action bg-dark text-white-50 bg-opacity-100">Add Book</a>
-                        <a href="" class="list-group-item rounded-0 list-group-item-action bg-dark text-white-50 bg-opacity-100">Add entry</a>
+                        <a href="{{ route('add.book') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white-50 bg-opacity-100">Add Book</a>
+                        <a href="{{ route('add.entry') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white-50 bg-opacity-100">Add entry</a>
                     </div>
                 </div>
             </div>
