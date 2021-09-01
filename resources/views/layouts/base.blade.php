@@ -21,16 +21,29 @@
             </ul>
         </div>
     </nav>
-
+    <style>
+        .list-group-item{
+            transition: .3s linear all;
+        }
+        .list-group-item:hover{
+            background-color: white!important;
+            color: black!important;
+        }
+    </style>
     <div class="container-fluid">
         <div class="row">
             <div class="col-2 p-0">
-                <div class="div b-dark p-0" style="height: 90vh">
+                <div class="div b-dark p-0 bg-dark" style="height: 90vh">
                     <div class="list-group p-0">
-                        <a href="{{ route('dashboard') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white-50 bg-opacity-100">Dashboard</a>
-                        <a href="{{ route('manage.books') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white-50 bg-opacity-100">Manage Books</a>
-                        <a href="{{ route('add.book') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white-50 bg-opacity-100">Add Book</a>
-                        <a href="{{ route('add.entry') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white-50 bg-opacity-100">Add entry</a>
+                        <a href="{{ route('dashboard') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Dashboard</a>
+                        <a href="{{ route('manage.books') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Manage Books</a>
+                        <a href="{{ route('add.book') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Add Book</a>
+                        <a href="{{ route('add.entry') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Add entry</a>
+                        <a href="{{ route('orders.active') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Active Orders</a>
+                        <a href="{{ route('orders.all') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Manage Orders</a>
+                        <a href="{{ route('orders.all') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Manage Students</a>
+                        <a href="{{ route('orders.all') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Settings</a>
+                        <a href="{{ route('orders.all') }}" class="list-group-item rounded-0 list-group-item-action bg-dark text-white bg-opacity-100 py-3 border-0">Logout</a>
                     </div>
                 </div>
             </div>

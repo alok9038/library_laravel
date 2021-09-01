@@ -29,6 +29,18 @@ Route::get('/add-entry', function () {
     return view('core.add_entry');
 })->name('add.entry');
 
+Route::get('/orders-active', function () {
+    return view('core.orders');
+})->name('orders.active');
+
+Route::get('/orders-all', function () {
+    return view('core.orders');
+})->name('orders.all');
+
+Route::get('/student', function () {
+    return view('core.students');
+})->name('manage.students');
+
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
 // })->middleware(['auth'])->name('dashboard');
