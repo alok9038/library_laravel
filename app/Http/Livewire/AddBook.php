@@ -24,12 +24,17 @@ class AddBook extends Component
         $this->validateOnly($propertyName);
     }
 
+    public function clear(){
+        $this->title =  $this->author = $this->isbn = $this->edition = $this->rent_price = $this->no_of_page = $this->language = "";
+    }
+
     public function save(){
         $data = $this->validate();
 
         Book::create($data);
 
-        $this->title =  $this->author = $this->isbn = $this->edition = $this->rent_price = $this->no_of_page = $this->language = "";
+        $this->clear();
+
     }
 
     public function render()
